@@ -25,4 +25,13 @@ formats, or converting between binary and text representations while preserving
 data integrity.
 """
 
-from .base64 import b16decode, b16encode, b64decode, b64encode
+from .base64 import (
+    b16decode,
+    b16encode,
+    b64decode,
+    b64encode,
+    unsafe_b16decode,
+    unsafe_b16encode,
+    unsafe_b64decode,
+    unsafe_b64encode,
+)
